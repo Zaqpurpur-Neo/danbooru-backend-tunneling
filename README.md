@@ -61,8 +61,8 @@ const JSON_PATH = "/api/json";
 ```
 
 - Default DoH = Cloudflare (1.1.1.1)
-- **DANBOORU_URL** → used for JSON API
-- **CDN_DANBOORU_URL** → used for content (images/files)
+- `DANBOORU_URL` → used for JSON API
+- `CDN_DANBOORU_URL` → used for content (images/files)
 - Change these if you want to use another DoH provider or mirror.
 
 ## Notes
