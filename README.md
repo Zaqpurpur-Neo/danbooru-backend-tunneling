@@ -22,10 +22,10 @@ Through the tunnel:
 
 ### Content (images/files)
 Normal: 
-[](https://cdn.donmai.us/original/12/1c/[content file...].jpg)
+[](https://cdn.donmai.us/original/12/1c/content-file.jpg)
 
 Through the tunnel:
-[](http://localhost:3000/api/content/original/12/1c/[content file...].jpg)
+[](http://localhost:3000/api/content/original/12/1c/content-file.jpg)
 
 ---
 
