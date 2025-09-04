@@ -49,7 +49,7 @@ In `package.json` there are two scripts:
 - `npm start` → starts the server with **node** (normal mode)  
 
 ## Config 
-Check [](src/commons.js)
+Check [src/commons.js](https://github.com/Zaqpurpur-Neo/danbooru-backend-tunneling/blob/main/src/commons.js)
 
 ```js
 const CLOUDFLARE_DOH = "https://1.1.1.1/dns-query";
