@@ -1,0 +1,22 @@
+{
+  "name": "danbooru-backend-tunneling",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon .",
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "Zaqpurpur-Neo",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dns2": "^2.1.0",
+    "express": "^5.1.0",
+    "undici": "^7.15.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
