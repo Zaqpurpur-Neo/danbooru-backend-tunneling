@@ -1,6 +1,5 @@
-const undici = require("undici")
-
-const CLOUDFLARE_DOH = "https://1.1.1.1/dns-query";
+const undici = require("undici");
+const { CLOUDFLARE_DOH } = require("./commons");
 
 async function customLookup(hostname, options, callback) {
 	try {
