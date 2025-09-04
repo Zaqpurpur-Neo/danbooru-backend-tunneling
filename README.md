@@ -15,17 +15,17 @@ So I built a tiny Express.js proxy that:
 ## How it works
 ### JSON (API stuff)
 Normal:
-[](https://danbooru.donmai.us/posts.json?tags=arknights)
+`https://danbooru.donmai.us/posts.json?tags=arknights`
 
 Through the tunnel:
-[](http://localhost:3000/api/json/posts.json?tags=arknights)
+`http://localhost:3000/api/json/posts.json?tags=arknights`
 
 ### Content (images/files)
 Normal: 
-[](https://cdn.donmai.us/original/12/1c/content-file.jpg)
+`https://cdn.donmai.us/original/12/1c/content-file.jpg`
 
 Through the tunnel:
-[](http://localhost:3000/api/content/original/12/1c/content-file.jpg)
+`http://localhost:3000/api/content/original/12/1c/content-file.jpg`
 
 ---
 
