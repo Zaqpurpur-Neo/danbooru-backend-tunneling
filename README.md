@@ -65,6 +65,16 @@ const JSON_PATH = "/api/json";
 - `CDN_DANBOORU_URL` → used for content (images/files)
 - Change these if you want to use another DoH provider or mirror.
 
+## Why Local Only?
+This project is mainly meant as a **personal workaround**, not something to put online for everyone.  
+
+- Running it **locally** keeps things simple — just `npm run dev` and you’re good.  
+- You keep full control over DNS resolution (via DoH `1.1.1.1`).  
+- You don’t have to worry about hosting limits (like Vercel timeouts or bandwidth caps).  
+- Most importantly: you don’t expose your proxy to the public internet where it could be abused.  
+
+So yeah, it’s better to just run this on your own machine whenever you need it.
+
 ## Notes
 - This is just a hacky personal project, not production-ready.
 - If you’re using it a lot, you might wanna add caching to avoid rate limits.
