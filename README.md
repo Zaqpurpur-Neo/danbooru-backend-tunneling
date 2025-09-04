@@ -40,7 +40,7 @@ npm start
 ```
 
 Server will be running at:
-`http://localhost:3000)`
+`http://localhost:3000`
 
 ## Scripts
 In `package.json` there are two scripts:
